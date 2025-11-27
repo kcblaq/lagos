@@ -54,7 +54,7 @@ const Index = () => {
               
               <div className="space-y-6">
                 <WeightSlider
-                  title="Economic and Financial Indicator (E&F)"
+                  title="Economic Indicator"
                   value={weights.economic}
                   onChange={(value) => setWeights({ ...weights, economic: value })}
                   icon={<DollarSign className="w-5 h-5" />}
@@ -68,7 +68,7 @@ const Index = () => {
                 />
 
                 <WeightSlider
-                  title="Infrastructure & Cost Indicator"
+                  title="Infrastructure Indicator"
                   value={weights.infrastructure}
                   onChange={(value) => setWeights({ ...weights, infrastructure: value })}
                   icon={<Building2 className="w-5 h-5" />}
