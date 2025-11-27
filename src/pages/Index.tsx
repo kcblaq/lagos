@@ -4,7 +4,6 @@ import { WeightSlider } from "@/components/WeightSlider";
 import { RankingTable } from "@/components/RankingTable";
 import { lgaData } from "@/data/lgaData";
 import { DollarSign, Target, Building2 } from "lucide-react";
-import { Card } from "@/components/ui/card";
 
 const Index = () => {
   const [weights, setWeights] = useState({
@@ -31,8 +30,6 @@ const Index = () => {
       infrastructure: Math.round(sums.infrastructure / total),
     };
   }, []);
-
-console.log("Data", indicatorAverages);
 
   return (
     <div className="min-h-screen bg-background">
