@@ -26,9 +26,9 @@ API-ready architecture for backend integration
 | ------------------ | ----------------------------------------------- |
 | Frontend Framework | React + Vite                                    |
 | Language           | TypeScript                                      |
-| Styling            | TailwindCSS / CSS Modules (based on your setup) |
-| State Management   | React Hooks / Context API (if used)             |
-| Deployment         | Vercel / VPS / Netlify (your choice)            |
+| Styling            | TailwindCSS |
+| State Management   | React Hooks             |
+| Deployment         | Netlify        
 
 
 Installation
@@ -41,3 +41,5 @@ npm install
 
 3. Start server
    npm run dev
+
+Live: https://lagos-lgas.netlify.app/
