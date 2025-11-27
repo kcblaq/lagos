@@ -41,3 +41,5 @@ npm install
 
 3. Start server
    npm run dev
+
+Live: https://lagos-lgas.netlify.app/
